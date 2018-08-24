@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+*{transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+}
+body{
+  overflow-x: hidden;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #0A0A08;
+}
+
+.fontExLigh{
+    font-weight: 200;
+}
+.fontLight{
+    font-weight: 300;
+}
+.fontNormal{
+    font-weight: 400;
+}
+.semiBold{
+    font-weight: 600;
+}
+.Bold{
+    font-weight: 700;
+}
+.extraBold{
+    font-weight: 800;
+}
+
+
