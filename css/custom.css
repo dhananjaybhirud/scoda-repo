@@ -30,4 +30,7 @@ body{
     font-weight: 800;
 }
 
-
+/*custom css starts from here */
+.logo img{box-shadow: 0px 0px 50px 0px #fff;}
+.app-header__logo{    justify-content: center;    display: flex;    background: #fff;}
+.app-header{box-shadow: 1px 2px 5px rgba(111,111,111,0.8);}
