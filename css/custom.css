@@ -32,5 +32,10 @@ body{
 
 /*custom css starts from here */
 .logo img{box-shadow: 0px 0px 50px 0px #fff;}
-.app-header__logo{    justify-content: center;    display: flex;    background: #fff;}
-.app-header{box-shadow: 1px 2px 5px rgba(111,111,111,0.8);}
+.app-header__logo{    justify-content: center;    display: flex;    background: #fff;align-items: center}
+.app-header__logo img{height: 80px}
+.app-header{box-shadow: 1px 2px 5px rgba(111,111,111,0.8);background-color: #fff;}
+.app-nav{display: block;    border-left: 1px solid #ddd;}
+.app-nav-inner{display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 0; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; height: 50px}
+.app-nav-inner-primary{display: flex;justify-content: space-between;}
+.app-nav-inner-secondary{background-color: #51a82e;height: 50px}
