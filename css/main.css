@@ -13467,7 +13467,7 @@ be a descendant of the grid when it is being dragged.
     margin-left: 0;
   }
   .app.sidenav-toggled .app-sidebar {
-    left: -230px;
+    left: -200px;
   }
   .app.sidenav-toggled .app-sidebar__overlay {
     visibility: hidden;
@@ -13479,7 +13479,7 @@ be a descendant of the grid when it is being dragged.
     overflow-x: hidden;
   }
   .app .app-sidebar {
-    left: -230px;
+    left: -200px;
   }
   .app .app-sidebar__overlay {
     visibility: hidden;
@@ -13496,8 +13496,8 @@ be a descendant of the grid when it is being dragged.
 }
 
 .app-content {
-  min-height: calc(100vh - 50px);
-  margin-top: 50px;
+  min-height: calc(100vh - 100px);
+  margin-top: 100px;
   padding: 30px;
   background-color: #E5E5E5;
   -webkit-transition: margin-left 0.3s ease;
@@ -13507,13 +13507,17 @@ be a descendant of the grid when it is being dragged.
 
 @media (min-width: 768px) {
   .app-content {
-    margin-left: 230px;
+    margin-left: 200px;
   }
 }
 
 @media (max-width: 767px) {
+  header.app-header{position: relative;padding-right: 0}
+  .app-header__logo{  
+    max-width: 100px;}
+    .app-nav{flex: 1}
   .app-content {
-    margin-top: 50px;
+    margin-top: 0px;
     min-width: 100%;
   }
 }
@@ -13562,7 +13566,7 @@ be a descendant of the grid when it is being dragged.
 
 @media (min-width: 768px) {
   .app-header {
-    padding-right: 30px;
+    padding-right: 0px;
   }
 }
 
@@ -13591,7 +13595,7 @@ be a descendant of the grid when it is being dragged.
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
     display: block;
-    width: 230px;
+    width: 200px;
     background-color: #3f8c21;
   }
 }
@@ -13652,7 +13656,7 @@ be a descendant of the grid when it is being dragged.
   display: block;
   padding: 15px;
   line-height: 20px;
-  color: #fff;
+  color: #0A0A08;
   -webkit-transition: background-color 0.3s ease;
   -o-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
@@ -13660,7 +13664,7 @@ be a descendant of the grid when it is being dragged.
 
 .app-nav__item:hover, .app-nav__item:focus {
   background: rgba(0, 0, 0, 0.1);
-  color: #f6f6f6;
+  color: #222;
 }
 
 .app-search {
@@ -13785,8 +13789,8 @@ be a descendant of the grid when it is being dragged.
   top: 0;
   bottom: 0;
   left: 0;
-  padding-top: 70px;
-  width: 230px;
+  padding-top: 100px;
+  width: 200px;
   overflow: auto;
   z-index: 10;
   background-color: #0A0A08;
@@ -13832,9 +13836,9 @@ be a descendant of the grid when it is being dragged.
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px;
-  margin-bottom: 20px;
-  color: #fff;
+  padding: 0 0 0 30px;
+  /*margin-bottom: 20px;*/
+  /*color: #fff;*/
 }
 
 .app-sidebar__user-avatar {
@@ -13842,6 +13846,7 @@ be a descendant of the grid when it is being dragged.
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
   margin-right: 15px;
+  height: 40px;
 }
 
 .app-sidebar__user-name {
@@ -14095,9 +14100,9 @@ be a descendant of the grid when it is being dragged.
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: #FFF;
-  margin: -30px -30px 30px;
-  padding: 20px 30px;
+  color: #FFF;
+  /*margin: -30px -30px 30px;*/
+  padding: 10px 30px;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
